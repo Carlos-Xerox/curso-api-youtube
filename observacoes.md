@@ -30,3 +30,15 @@ Post - Criar
 Put - Editar vários
 Patch - Editar um
 Delete - Deletar
+
+
+AO FAZER UMA ALTERAÇÃO NO SERVIDOR TEMOS QUE FECHAR E ABRIR NOVAMENTE
+    mas isso pode ser contornado com uma feature nova experimental node --watch server.js
+
+EXISTEM TRES FORMAS DE REQUEST
+
+TRES FORMAS DE PEDIR INFORMAÇÕES
+QUERY PARAMS (GET) - CONSULTAS - perguntando informações na URL - faça uma pequisa no google e observe a barra de pesquisa
+    Posso usar colocando um ponto de interrogação depois da rota e após ele tudo vai se tornar uma "variável", pra separar informações nesse caso utilizamos &
+    Ex. servidor.com/usuarios?estado=bahia&cidade=salvador
+    Observe que esse método não é ideal em muitos casos, em caso de uma compra não é inteligente colocar os dados do usuario no navegador

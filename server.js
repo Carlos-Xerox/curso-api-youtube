@@ -2,6 +2,13 @@ import express from 'express';
 
 const app = express();
 
+const users = [] // vamos substituir depois por um banco de dados
+
+app.post ('/usuarios', (req, res) => {
+    console.log(req);
+    res.send('Ok aqui deu certo')
+})
+
 app.get('/usuarios', (req, res) => {
     res.send('Ok, deu bom');
 })
